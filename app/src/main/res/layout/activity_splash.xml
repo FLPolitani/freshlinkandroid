@@ -10,10 +10,10 @@
         tools:context="politanismd.freshlink.activity.SplashIntro">
 
         <ImageView
-            android:layout_margin="100dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/freshlink_logo"/>
+            android:layout_margin="100dp"
+            android:src="@drawable/fl_logo" />
 
     </LinearLayout>
 
