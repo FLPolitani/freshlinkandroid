@@ -13,4 +13,10 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+<<<<<<< HEAD
+    <string name="stape1">Dapatkan produk sehat dan segar langsung dari tangan petani</string>
+    <string name="stape2">Dapatkan produk dengan harga lebih murah dari harga pasar</string>
+    <string name="stape3">Bebas biaya ongkir dengan minimum pembelian</string>
+=======
+>>>>>>> origin/master
 </resources>
