@@ -9,8 +9,9 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
 
-    <string name="stape1">Permudah dengan melakukan pengecekan pembanyaran anda dalam penggunan air PDAM.</string>
-    <string name="stape2">Anda dapat melakukan pengaduan kerusakan maupun keluhan kepada PDAM Tirta Kencana Samarinda.</string>
-    <string name="stape3">Permudah mengajuan pemasangan air kerumah anda dengan melakukan pengajuan pada aplikasi ini.</string>
+    <string name="stape1">Dapatkan produk sehat dan segar langsung dari tangan petani</string>
+    <string name="stape2">Dapatkan produk dengan harga lebih murah dari harga pasar</string>
+    <string name="stape3">Bebas biaya ongkir dengan syarat minimum pembelian</string>
+
     <string name="title_activity_scrolling">ScrollingActivity</string>
 </resources>
