@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
+
 import politanismd.freshlink.R;
 import politanismd.freshlink.databinding.ActivitySplashBinding;
 
