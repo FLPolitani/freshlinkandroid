@@ -6,15 +6,59 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class ResponseToken implements Serializable {
-    @SerializedName("token")
+    @SerializedName("success")
     @Expose
-    private String token;
+    public Boolean success=false;
 
-    public String getToken() {
-        return token;
+    @SerializedName("data")
+    @Expose
+    public Data data;
+
+    @SerializedName("message")
+    @Expose
+    public String message;
+
+    @SerializedName("error")
+    @Expose
+    public String error;
+
+    public Boolean getSuccess() {
+        return success;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    public void setSuccess(Boolean success) {
+        this.success = success;
+    }
+
+    public Data getData() {
+        return data;
+    }
+
+    public void setData(Data data) {
+        this.data = data;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public class Data {
+
+        @SerializedName("token")
+        @Expose
+        private String token;
+
+        public String getToken() {
+            return token;
+        }
+
+        public void setToken(String token) {
+            this.token = token;
+        }
+
     }
 }
