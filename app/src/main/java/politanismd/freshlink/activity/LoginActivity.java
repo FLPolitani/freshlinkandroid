@@ -39,7 +39,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
-import politanismd.freshlink.MainActivity;
+import politanismd.freshlink.activity.MainActivity;
 import politanismd.freshlink.R;
 import politanismd.freshlink.config.Const;
 import politanismd.freshlink.manager.PrefManager;
