@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="politanismd.freshlink">
+    package="mobile.apps.bi.id.lagipanen.lagipanenapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,12 +11,17 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        tools:replace="android:icon"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
         <activity
-            android:name=".activity.SplashIntro">
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SplashIntro"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,14 +34,68 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.LoginActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".activity.RegisterActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"/>
+            android:name=".activity.DetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.InvestasiPembayaran"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MethodPayment"
+            android:label="Metode Pembayaran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.InvestasiSuccess"
+            android:label="Pembelian"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.SayurActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BuahActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LaukActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BasePayActivity"
+            android:label="@string/title_activity_base_pay"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.Kategori"
+            android:label="@string/title_activity_base_pay"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.Pembelian"
+            android:label="@string/title_activity_base_pay"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.Pengaturan"
+            android:label="@string/title_activity_base_pay"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.CustomerService"
+            android:label="@string/title_activity_base_pay"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.Help"
+            android:label="@string/title_activity_base_pay"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

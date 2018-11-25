@@ -71,7 +71,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginLeft="36dp"
                                 android:layout_marginRight="36dp"
-                                android:src="@drawable/freshlinkputih" />
+                                android:src="@drawable/lagipanen_white" />
 
                         </LinearLayout>
 
@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <politanismd.freshlink.utility.TypefaceTextView
+                        <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
                             android:textColor="#292929"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <politanismd.freshlink.utility.TypefaceTextView
+                        <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
                             android:textColor="#292929"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <politanismd.freshlink.utility.TypefaceTextView
+                        <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
                             android:textColor="#292929"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <politanismd.freshlink.utility.TypefaceTextView
+                        <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
                             android:textColor="#292929"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -250,7 +250,7 @@
                         android:layout_height="wrap_content"
                         android:padding="5dp">
 
-                        <politanismd.freshlink.utility.TypefaceTextView
+                        <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
                             android:textColor="#434343"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"

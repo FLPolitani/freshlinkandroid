@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+    
+    <LinearLayout
+        android:background="#FFF"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                android:background="@drawable/border_background_grape_low"
+                android:layout_width="90dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_height="match_parent">
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAKET A"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp. 50.000.000"
+                    android:textSize="12sp"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SPI76637232323"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#1a1a1a" />
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status : "
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#1a1a1a" />
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sedang dalam investasi"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a1a" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:background="@drawable/border_no_background_silver_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ordered : "
+                        android:textSize="11sp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#1a1a1a" />
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="01/11/2017"
+                        android:textSize="11sp"
+                        android:textColor="#1a1a1a" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/border_background_yellow_medium_right_bottom"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expired : "
+                        android:textSize="11sp"
+                        android:textColor="#1a1a1a" />
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="01/11/2017"
+                        android:textSize="11sp"
+                        android:textColor="#1a1a1a" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

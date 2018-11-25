@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "429575571090",
+    "firebase_url": "https://sapiku-android.firebaseio.com",
+    "project_id": "sapiku-android",
+    "storage_bucket": "sapiku-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429575571090:android:c67154e543a40deb",
+        "android_client_info": {
+          "package_name": "mobile.apps.bi.id.lagipanen.lagipanenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429575571090-u9rgvidlpilpj19r11ligdjh5965tq6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobile.apps.bi.id.lagipanen.lagipanenapp",
+            "certificate_hash": "8db067d4459cb57bae1832adc1ce4a176e8e2f50"
+          }
+        },
+        {
+          "client_id": "429575571090-330u50libeb1c68vkfjp7u5gc4lo7479.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl0sFgLe8pnGIGmUJMQffxEP32NehZeK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429575571090-330u50libeb1c68vkfjp7u5gc4lo7479.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

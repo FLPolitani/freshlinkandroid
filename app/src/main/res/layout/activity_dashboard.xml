@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:paddingTop="55dp"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:background="#f5f5f5"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:background="@drawable/border_no_background_silver"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp">
+
+                            <ImageView
+                                android:id="@+id/foto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="0.5dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/a" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="8dp">
+
+                        <TextView
+                            android:id="@+id/nama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lagipanen"
+                            android:textColor="#1d1d1d"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="lagipanen@gmail.com"
+                            android:textColor="#505050"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/d_kategori"
+                        android:clickable="true"
+                        android:background="@drawable/button_no_background"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:src="@drawable/img_kategori"/>
+
+                        <TextView
+                            android:layout_marginLeft="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kategori"
+                            android:textColor="#4e4e4e"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/d_pembelian"
+                        android:clickable="true"
+                        android:background="@drawable/button_no_background"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:src="@drawable/img_shope"/>
+
+                        <TextView
+                            android:layout_marginLeft="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pembelian"
+                            android:textColor="#4e4e4e"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/d_pengaturan"
+                        android:clickable="true"
+                        android:background="@drawable/button_no_background"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:src="@drawable/img_settings"/>
+
+                        <TextView
+                            android:layout_marginLeft="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pengaturan"
+                            android:textColor="#4e4e4e"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/d_customerService"
+                        android:clickable="true"
+                        android:background="@drawable/button_no_background"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:src="@drawable/img_service"/>
+
+                        <TextView
+                            android:layout_marginLeft="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hubungi Kami"
+                            android:textColor="#4e4e4e"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/d_help"
+                        android:clickable="true"
+                        android:background="@drawable/button_no_background"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:src="@drawable/img_help"/>
+
+                        <TextView
+                            android:layout_marginLeft="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bantuan"
+                            android:textColor="#4e4e4e"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:clickable="true"
+                        android:background="@drawable/button_no_background"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <ImageView
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:src="@drawable/img_logout"/>
+
+                        <TextView
+                            android:id="@+id/d_logout"
+                            android:layout_marginLeft="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Keluar"
+                            android:textColor="#4e4e4e"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

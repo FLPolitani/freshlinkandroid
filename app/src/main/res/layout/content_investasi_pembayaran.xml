@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mobile.apps.bi.id.lagipanen.lagipanenapp.activity.InvestasiPembayaran"
+    tools:showIn="@layout/activity_investasi_pembayaran">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:elevation="3dp"
+            android:background="@drawable/border_background_white_low_with_stroke"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="300dp"
+                    android:layout_height="160dp">
+
+                    <ImageView
+                        android:layout_margin="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sapi_limousin"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="3dp"
+                        android:text="Investasi Sapi Limosin Sapi super"/>
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="6dp"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:gravity="center|left"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_tag"/>
+
+                            <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#333333"
+                                android:textSize="12sp"
+                                android:text=" RP. 15.000.000"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="-5dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center|left"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:src="@drawable/img_percent"/>
+
+                            <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#333333"
+                                android:textSize="12sp"
+                                android:text=" 40% per Tahun"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="-5dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center|left"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_interface"/>
+
+                            <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#333333"
+                                android:textSize="12sp"
+                                android:text=" 1 Tahun"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="-5dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center|left"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp">
+
+                            <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Profit : "
+                                android:textColor="#333333"
+                                android:textSize="12sp"
+                                android:textStyle="bold"/>
+
+                            <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#333333"
+                                android:textSize="12sp"
+                                android:text=" Setelah sapi terjual"
+                                android:layout_marginRight="-5dp"
+                                android:paddingRight="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e7e7e7" />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:background="@drawable/border_background_orange_height"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp">
+
+                        <ImageView
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/img_plush"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#1a1a1a"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:background="@drawable/border_background_orange_height"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:layout_marginBottom="6dp"
+                            android:textColor="#000"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|right"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RP. "
+                        android:textSize="16sp"
+                        android:textColor="#333333"/>
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="15.000.000"
+                        android:textSize="16sp"
+                        android:textColor="#333333"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF">
+
+            <LinearLayout
+                android:gravity="center|left"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_invest"/>
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#333333"
+                    android:textSize="14sp"
+                    android:text=" Investasi sapi"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="-5dp"
+                    android:paddingRight="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:background="@drawable/border_no_background_silver_low"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:layout_margin="5dp"
+                    android:entries="@array/invest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:background="@drawable/border_background_silver_low"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a1a"
+                    android:textStyle="bold"
+                    android:text="Total transfer amount : Rp. "/>
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a1a"
+                    android:text="15.000.000"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Asuransikan sapi? "
+                        android:textSize="14sp"
+                        android:textColor="#333333"/>
+
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:background="@drawable/border_no_background_yellow_heigt"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp">
+
+                        <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tanya"
+                            android:textStyle="bold"
+                            android:textColor="#1a1a1a"
+                            android:textSize="14sp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:paddingLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ya, sapi saya asuransikan."/>
+
+                    <CheckBox
+                        android:layout_marginTop="-5dp"
+                        android:paddingLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak, saya tidak mengasuransikan sapi."/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="#e7e7e7"/>
+
+            <LinearLayout
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:paddingLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saya menyetujui"/>
+
+                <mobile.apps.bi.id.lagipanen.lagipanenapp.utility.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="ketentuan sapiku"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="#e7e7e7"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pay_list"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="lanjutkan"
+            android:textSize="15sp"
+            android:background="@drawable/button_yellow_very_low"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

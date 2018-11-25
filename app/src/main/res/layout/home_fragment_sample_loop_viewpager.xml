@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <mobile.apps.bi.id.lagipanen.lagipanenapp.adapter.SliderDashboard.LoopViewPagerHome
+            android:background="#FFF"
+            android:id="@id/viewpager"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/indicator" />
+
+    <mobile.apps.bi.id.lagipanen.lagipanenapp.adapter.SliderDashboard.CycleIndicatorSlideImageHome
+        android:id="@id/indicator"
+        android:layout_gravity="left|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        android:drawingCacheQuality="high"
+        android:layout_alignParentBottom="true" />
+</FrameLayout>

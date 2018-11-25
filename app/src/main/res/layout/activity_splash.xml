@@ -7,13 +7,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="politanismd.freshlink.activity.SplashIntro">
+        tools:context="pdam.britech.id.aplikasipdam.activity.SplashIntro">
 
         <ImageView
+            android:layout_margin="100dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="100dp"
-            android:src="@drawable/splashlogo" />
+            android:src="@drawable/lagipanen_img"/>
 
     </LinearLayout>
 
